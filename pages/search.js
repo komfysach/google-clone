@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import {useRouter} from 'next/router'
 
-import Response from '../response'
 import SearchResults from '../components/SearchResults'
 
 function Search({results}) {
